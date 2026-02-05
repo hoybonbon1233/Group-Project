@@ -10,8 +10,6 @@ void deleteElement(double nums[], char ops[], int index, int *count) {
     }
     (*count)-- ;
 }
-
-
 void process(double nums[], char ops[], int *count, const char *validOps) {
     int i = 0 ;
     

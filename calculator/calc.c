@@ -29,7 +29,7 @@ void deleteElement(double nums[], char ops[], int index, int *count) {
         ops[i] = ops[i + 1] ;
     }
     (*count)-- ;
-}
+}//calculation function
 
 
 void process(double nums[], char ops[], int *count, const char *validOps) {
